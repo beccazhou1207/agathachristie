@@ -1,0 +1,242 @@
+/* GLOBAL */
+
+html{
+	background-image: url(../map.jpg);
+	background-size:cover;
+	font-family: big caslon;
+}
+
+.menu{
+	font-family:big caslon;
+	font-size: 18px;
+	line-height: 0.7;
+	letter-spacing:0.04em;
+	text-rendering:optimizeLegibility;
+	color:rgb(255,255,255);
+	margin:10px;
+	padding:10px;
+	font-color: white;
+    z-index: 1;
+	}
+
+
+/*menu.h4:hover{
+	opacity: 0.4;
+	}*/
+h4:hover{
+    opacity: 0.6;
+    }
+
+
+
+
+.circle {
+    /*border: solid black 2px;*/
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 28px;
+    color:white;
+    z-index: 1;
+}
+
+.special-circle {
+    position: fixed;
+    top: 16%;
+    left: 48%;
+}
+
+.transition { transition: all 2s linear; }
+
+#circle-1 { background-color: ; }
+#circle-2 { background-color: #DC143C; }
+#circle-3 { background-color: #DC143C; }
+#circle-4 { background-color: ; }
+
+/*.special-circle.position-1 {
+    top: 20%;
+    left: 20%;
+}*/
+
+.special-circle.position-2 {
+    top: 80.5%;
+    left: 56.5%;
+}
+
+
+
+
+
+
+.icon:hover{
+	opacity: 0.4;
+	}
+
+/*body {
+    padding: 0;
+    margin: 0;
+}*/
+
+.grid-square,.column,.row{   
+  /*border: solid red 1px;*/ /* borders on the divs so we can see them  */
+  box-sizing: border-box; /* look up box sizing */
+  overflow: hidden; 
+  font-family: big caslon;
+  font-size: 16px;
+
+
+}
+  
+.icon { 
+  max-width:58px;
+  height: 50px;
+}
+
+#grid-container-one,
+#grid-container-two {
+    position: absolute;
+    background-color: ;
+    height: 50%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+#grid-container-two {
+    /*background-color: ;*/
+    top: 50%;
+}
+
+/* ---------------------------------------------
+Grid 1 is composed of rows in columns
+--------------------------------------------- */
+.column {
+    float:left;
+    width: 20%; /* 5 columns: 100% ÷ 5 = 20% */
+    height: 100%;
+    top: 0;
+    bottom: 0;
+}
+    /*.column:nth-child(odd) {
+        background-color: ;
+    }*/
+.row {
+    width: 100%;
+    height: 20%; /* 5 rows: 100% ÷ 5 = 20% */
+}
+    /*.row:nth-child(even) {
+        background-color: ;
+    }
+    .column:nth-child(even) .row:nth-child(even) {
+        background-color: ;
+    }*/
+
+/* ---------------------------------------------
+Grid 2 is composed of individual grid squares
+--------------------------------------------- */
+.grid-square {
+    float: left;
+    height: 20%;
+    width: 20%;
+}
+
+
+
+.modalDialog {
+    position: fixed;
+    font-family:big caslon;
+    font-size: 20px;
+    line-height:1.6;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #8B8386;
+    z-index: -1;
+    opacity:0;
+    -webkit-transition: opacity 380ms ease-in;
+    -moz-transition: opacity 380ms ease-in;
+    transition: opacity 380ms ease-in;
+    pointer-events: none;
+    }
+
+.modalDialog:target {
+    opacity:0.92;
+    pointer-events: auto;
+    }
+
+.modalDialog > div {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 13% auto;
+    padding: 40px 30px 50px 50px;
+    border-radius: 9px;
+    background: #EDEDED;
+    background: -moz-linear-gradient(#EDEDED, #FFFAFA);
+    background: -webkit-linear-gradient(#EDEDED, #FFFAFA);
+    background: -o-linear-gradient(#EDEDED, #FFFAFA);
+    }
+
+.modalDialog img{
+    position: relative;
+    right: 2%;
+    top: 0%;
+    width: 54em;
+    
+}
+.close {
+    font-family:candara;
+    font-size: 18px;
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+    }
+
+.close:hover { background: red; }
+.circle:hover{
+    opacity:0.3;
+    transition:none;
+}
+
+    /*.grid-square:nth-child(odd) {
+        background-color: ;
+    }*/
+/*text-rendering:optimizeLegibility;
+line-height:1.25;
+letter-spacing:0.04em
+max-width:540px;
+text-indent: 1.25em;
+margin-bottom: 1em;*/
+/*text-align: center;*/
+
+
+
+
+    /*.grid-square:nth-child(odd) {
+        background-color: ;
+    }*/
+/*text-rendering:optimizeLegibility;
+line-height:1.25;
+letter-spacing:0.04em
+max-width:540px;
+text-indent: 1.25em;
+margin-bottom: 1em;*/
+/*text-align: center;*/

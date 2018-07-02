@@ -1,0 +1,98 @@
+html{
+	background-image: url(../ethel3.jpg);
+	background-size:cover;
+}
+
+.menu{
+	
+	font-family: big caslon;
+	font-size: 18px;
+	line-height: 0.7;
+	letter-spacing:0.04em;
+	text-rendering:optimizeLegibility;
+	color:rgb(255,255,255);
+	margin:10px;
+	padding:10px;
+	font-color: white;
+
+	}
+
+h3 {
+	margin:15px;
+	font-family: big caslon;
+	font-size: 16px;
+	text-align: right;	
+	color:#FFFAF0	;
+	
+}
+	h1 {
+	margin:15px;
+	font-family: big caslon;
+	text-align: left;
+	font-size: 26px;
+	text-decoration: line-through;
+	text-indent: 78px;
+	
+}
+
+.menu h4:hover{
+		opacity: 0.4;
+	}
+.ethel2 img{
+position: fixed;
+  right:7%;
+  top: 55%;
+  width:35em;
+  margin-top: -1em;
+  z-index: -1;
+}
+	
+.hover img { display: none; position: absolute; top: 20px; left: 20px; }
+.hover:hover img { display: block; }
+
+
+	.ethel{
+	font-family: big caslon;
+	font-size: 18px;
+	line-height: 1.9;
+	letter-spacing:0.04em;
+	text-rendering:optimizeLegibility;
+	margin:70px;
+	padding:20px;
+	width: 470px;
+
+/*	transform: rotate(deg);*/
+	/*word-wrap: break-word;*/
+	/*-webkit-transform: rotate(7deg);  Chrome, Safari, Opera 
+    */
+	}
+
+
+	.back img{
+  position: fixed;
+  right: 95%;
+  top: 90%;
+  width: 1.5em;
+  margin-top: -1em;
+
+	}
+
+	.back img:hover{
+  opacity: 0.3;
+	}
+
+
+
+	.forward img{
+			position: fixed;
+  right: 5%;
+  top: 90%;
+  width: 1.5em;
+  margin-top: -1em;
+
+	}
+
+	.forward img:hover{
+		opacity: 0.3;
+	}
+	

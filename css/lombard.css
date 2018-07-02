@@ -1,0 +1,84 @@
+html{
+	background-image: url(../lombardback.jpg);
+	background-size:cover;
+}
+
+.menu{
+	
+	font-family: big caslon;
+	font-size: 18px;
+	line-height: 0.7;
+	letter-spacing:0.04em;
+	text-rendering:optimizeLegibility;
+	color:rgb(255,255,255);
+	margin:10px;
+	padding:10px;
+	font-color: white;
+
+	}
+
+.menu h4:hover{
+		opacity: 0.4;
+	}
+h1 {
+	margin:34px;
+	
+	font-family: big caslon;
+	text-align: left;
+	font-size: 26px;
+	text-decoration: line-through;
+	text-indent: 78px;
+	
+}
+	
+	.lombard{
+	position: fixed;
+  right: 95%;
+  top: 90%;
+  width: 1.5em;
+  margin-top: -1em;
+
+/*	transform: rotate(deg);*/
+	/*word-wrap: break-word;*/
+	/*-webkit-transform: rotate(7deg);  Chrome, Safari, Opera 
+    */
+	}
+
+
+	.back img{
+  position: fixed;
+  right: 95%;
+  top: 90%;
+  width: 1.5em;
+  margin-top: -1em;
+
+	}
+
+	.back img:hover{
+  opacity: 0.3;
+	}
+
+.bear img{
+  position: fixed;
+  right: 80%;
+  top: 50%;
+  width: 7.6em;
+  margin-top: -1em;
+  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+
+}
+
+	.forward img{
+			position: fixed;
+  right: 5%;
+  top: 90%;
+  width: 1.5em;
+  margin-top: -1em;
+
+	}
+
+	.forward img:hover{
+		opacity: 0.3;
+	}
+	

@@ -1,0 +1,92 @@
+/* GLOBAL */
+
+.booktitle{
+	font-family: big caslon;
+	font-size: 36px;
+	line-height: 1.25;
+	text-align: center;
+	letter-spacing:0.04em;
+	text-rendering:optimizeLegibility;
+	font-color: rgb(72,72,72);
+}
+html{
+	background-image: url(../2.jpg);
+	background-size:cover;
+}
+
+
+.title{
+	text-decoration: line-through;
+	font-family: big caslon;
+	font-size: 38px;
+	line-height: 1.25;
+	text-align: center;
+	letter-spacing:0.04em;
+	text-rendering:optimizeLegibility;
+	
+}
+
+.menu{
+	
+	font-family: big caslon;
+	font-size: 18px;
+	line-height: 0.7;
+	letter-spacing:0.04em;
+	text-rendering:optimizeLegibility;
+	color:rgb(255,255,255);
+	margin:10px;
+	padding:10px;
+	font-color: white;
+	}
+.police img{
+	
+  position: fixed;
+  right: 60%;
+  top: 70%;
+  width: 6.5em;
+  margin-top: -1em;
+}
+
+
+.police img:hover{
+	opacity:0.6;
+}
+
+.murder img{
+position: fixed;
+  right: 34.3%;
+  top: 70%;
+  width: 6.7em;
+  margin-top: -1em;
+
+}	
+
+.murder img:hover{
+	opacity:0.6;
+}
+
+h4:hover{
+opacity:0.6;
+}
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+/*text-rendering:optimizeLegibility;
+line-height:1.25;
+letter-spacing:0.04em
+max-width:540px;
+text-indent: 1.25em;
+margin-bottom: 1em;*/
+/*text-align: center;*/

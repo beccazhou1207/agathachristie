@@ -1,0 +1,151 @@
+/* GLOBAL */
+
+html{
+	background-image: url("");
+	background-size:cover;
+	}
+
+.menu{
+	font-family: big caslon;
+	font-size: 18px;
+	line-height: 0.7;
+	letter-spacing:0.04em;
+	text-rendering:optimizeLegibility;
+	color:rgb(255,255,255);
+	margin:10px;
+	padding:10px;
+	}
+
+.menu h4:hover{
+	opacity: 0.4;
+}
+
+.modalDialog {
+	position: fixed;
+	font-family:big caslon;
+	font-size: 18px;
+	line-height:1.6;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #CD5555;
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 380ms ease-in;
+	-moz-transition: opacity 380ms ease-in;
+	transition: opacity 380ms ease-in;
+	pointer-events: none;
+	}
+
+.modalDialog:target {
+	opacity:0.9;
+	pointer-events: auto;
+	}
+
+.modalDialog > div {
+	width: 930px;
+	height: 400px;
+	position: relative;
+	margin: 13% auto;
+	padding: 40px 30px 50px 50px;
+	border-radius: 9px;
+	background: #EDEDED;
+	background: -moz-linear-gradient(#EDEDED, #FFFAFA);
+	background: -webkit-linear-gradient(#EDEDED, #FFFAFA);
+	background: -o-linear-gradient(#EDEDED, #FFFAFA);
+	}
+
+.modalDialog img{
+	position: relative;
+  	right: 2%;
+  	top: 0%;
+  	width: 54em;
+	
+}
+.close {
+	font-family:candara;
+	font-size: 18px;
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+	}
+
+.close:hover { background: #CDB7B5; }
+
+
+
+
+.sir{
+	
+	font-family: big caslon;
+	font-size: 18px;
+	line-height: 1.7;
+	letter-spacing:0.04em;
+	text-rendering:optimizeLegibility;
+	/*color:rgb(255,255,255);*/
+	max-width:415px;
+	margin:50px;
+	padding:20px;
+	text-align: left;
+	}
+
+.ac{
+	
+	font-family: big caslon;
+	font-size: 18px;
+	line-height: 1.7;
+	letter-spacing:0.04em;
+	text-rendering:optimizeLegibility;
+	/*color:rgb(255,255,255);*/
+	max-width:415px;
+	margin:30px;
+	padding:20px;
+	position: fixed;
+    right: 23%;
+    top: 19%;
+    width: 30em;
+    margin-top: -1em;
+	}
+
+	.hint img{
+  	position: fixed;
+  	right: 10%;
+  	top: 19%;
+  	width: 15em;
+  	margin-top: -1em;	
+	}
+
+	.hint img:hover{
+	opacity: 0.3;
+	}
+
+	.menu h4:hover{
+	opacity: 0.4;
+	}
+
+
+
+/*text-rendering:optimizeLegibility;
+line-height:1.25;
+letter-spacing:0.04em
+max-width:540px;
+text-indent: 1.25em;
+margin-bottom: 1em;*/
+/*text-align: center;*/
+
+
+
