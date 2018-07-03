@@ -1,43 +1,31 @@
 /* GLOBAL */
 @font-face {
     font-family: Ogg-Roman;
-    src: url("./asset/typeface/Ogg-Roman.otf") format("opentype");
+    src: url("../asset/typeface/Ogg-Roman.otf") format("opentype");
 }
 
 @font-face {
-    font-family: SharpGroteskTRIALBook22;
-    src: url("./asset/typeface/SharpGroteskTRIALBook22.otf") format("opentype");
+    font-family:SharpGroteskTRIALBook22;
+    src: url("../asset/typeface/SharpGroteskTRIALBook22.otf") format("opentype");
+}
+
+
+html{
+	background-color: black;
 }
 
 .booktitle{
-	font-family: Ogg-Roman;
-	font-color: white;
-	font-size: 38px;
-	line-height: 1.25;
+	font-family:Ogg-Roman;
+	color: white;
+	font-size: 54px;
+	line-height: 1.35;
 	text-align: center;
-	letter-spacing:0.04em;
+	letter-spacing:0.055em;
+	margin:-130px;
+	padding:10px;
 	text-rendering:optimizeLegibility;
-	
 }
 
-html{
-	background-color: lightgrey;
-	background-size:cover;
-}
-
-
-.title{
-	text-decoration: line-through;
-	font-family: Ogg-Roman;
-	font-color:white;
-	font-size: 38px;
-	line-height: 1.25;
-	text-align: center;
-	letter-spacing:0.04em;
-	text-rendering:optimizeLegibility;
-	
-	
-}
 
 .menu{
 	
@@ -46,12 +34,46 @@ html{
 	line-height: 0.7;
 	letter-spacing:0.04em;
 	text-rendering:optimizeLegibility;
-	color:rgb(255,255,255);
 	margin:10px;
 	padding:10px;
-	font-color: white;
+	color:white;
 	}
-.police img{
+
+/*homepage underline situation*/
+
+.underline {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+.underline:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  width: 0;
+  bottom: 37px;
+  background: red;
+  height: 4px;
+  transition-property: width;
+  transition-duration: 0.6s;
+  transition-timing-function: ease-out;
+}
+.underline:hover:after,
+.underline:focus:after,
+.underline:active:after {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+
+
+
+
+
+
+
+/*.police img{
 	
   position: fixed;
   right: 60%;
@@ -76,11 +98,11 @@ position: fixed;
 
 .murder img:hover{
 	opacity:0.6;
-}
+}*/
 
-h4:hover{
+/*h4:hover{
 opacity:0.6;
-}
+}*/
 
 
 	
