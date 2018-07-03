@@ -11,15 +11,17 @@
 
 .booktitle{
 	font-family: Ogg-Roman;
+	font-color: white;
 	font-size: 38px;
 	line-height: 1.25;
 	text-align: center;
 	letter-spacing:0.04em;
 	text-rendering:optimizeLegibility;
-	font-color: white;
+	
 }
+
 html{
-	background-color: black;
+	background-color: lightgrey;
 	background-size:cover;
 }
 
@@ -27,11 +29,13 @@ html{
 .title{
 	text-decoration: line-through;
 	font-family: Ogg-Roman;
+	font-color:white;
 	font-size: 38px;
 	line-height: 1.25;
 	text-align: center;
 	letter-spacing:0.04em;
 	text-rendering:optimizeLegibility;
+	
 	
 }
 
