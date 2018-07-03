@@ -9,11 +9,6 @@
     src: url("./asset/typeface/SharpGroteskTRIALBook22.otf") format("opentype");
 }
 
-@font-face {
-    font-family: ;
-    src: url("./asset/typeface/.otf") format("opentype");
-}
-
 .booktitle{
 	font-family: Ogg-Roman;
 	font-size: 38px;
@@ -21,10 +16,10 @@
 	text-align: center;
 	letter-spacing:0.04em;
 	text-rendering:optimizeLegibility;
-	font-color: rgb(72,72,72);
+	font-color: white;
 }
 html{
-	background-image: url(.jpg);
+	background-color: black;
 	background-size:cover;
 }
 
