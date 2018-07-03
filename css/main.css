@@ -1,8 +1,22 @@
 /* GLOBAL */
+@font-face {
+    font-family: Ogg-Roman;
+    src: url("assets/fonts/Ogg-Roman.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SharpGroteskTRIALBook22;
+    src: url("assets/fonts/SharpGroteskTRIALBook22.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ;
+    src: url("assets/fonts/.otf") format("opentype");
+}
 
 .booktitle{
-	font-family: big caslon;
-	font-size: 36px;
+	font-family: Ogg-Roman;
+	font-size: 38px;
 	line-height: 1.25;
 	text-align: center;
 	letter-spacing:0.04em;
@@ -10,14 +24,14 @@
 	font-color: rgb(72,72,72);
 }
 html{
-	background-image: url(../2.jpg);
+	background-image: url(.jpg);
 	background-size:cover;
 }
 
 
 .title{
 	text-decoration: line-through;
-	font-family: big caslon;
+	font-family: Ogg-Roman;
 	font-size: 38px;
 	line-height: 1.25;
 	text-align: center;
@@ -28,7 +42,7 @@ html{
 
 .menu{
 	
-	font-family: big caslon;
+	font-family:SharpGroteskTRIALBook22;
 	font-size: 18px;
 	line-height: 0.7;
 	letter-spacing:0.04em;
