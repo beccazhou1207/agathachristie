@@ -1,17 +1,17 @@
 /* GLOBAL */
 @font-face {
     font-family: Ogg-Roman;
-    src: url("asset/typeface/Ogg-Roman.otf") format("opentype");
+    src: url("./asset/typeface/Ogg-Roman.otf") format("opentype");
 }
 
 @font-face {
     font-family: SharpGroteskTRIALBook22;
-    src: url("asset/typeface/SharpGroteskTRIALBook22.otf") format("opentype");
+    src: url("./asset/typeface/SharpGroteskTRIALBook22.otf") format("opentype");
 }
 
 @font-face {
     font-family: ;
-    src: url("asset/typeface/.otf") format("opentype");
+    src: url("./asset/typeface/.otf") format("opentype");
 }
 
 .booktitle{
