@@ -1,34 +1,25 @@
 /* GLOBAL */
-
-html{
-	background-image: url(../map.jpg);
-	background-size:cover;
-	font-family: big caslon;
+@font-face {
+    font-family: Ogg-Roman;
+    src: url("../asset/typeface/Ogg-Roman.otf") format("opentype");
 }
 
-.menu{
-	font-family:big caslon;
-	font-size: 18px;
-	line-height: 0.7;
-	letter-spacing:0.04em;
-	text-rendering:optimizeLegibility;
-	color:rgb(255,255,255);
-	margin:10px;
-	padding:10px;
-	font-color: white;
-    z-index: 1;
-	}
+@font-face {
+    font-family:SharpGroteskTRIALBook22;
+    src: url("../asset/typeface/SharpGroteskTRIALBook22.otf") format("opentype");
+}
 
+@font-face {
+    font-family:SportingGrotesque-Regular;
+    src: url("../asset/typeface/SportingGrotesque-Regular.otf") format("opentype");
+}
 
-/*menu.h4:hover{
-	opacity: 0.4;
-	}*/
-h4:hover{
-    opacity: 0.6;
-    }
-
-
-
+html{
+    background-color:black;
+	/*background-image: url(../map.jpg);
+	background-size:cover;*/
+    /*#BDBEC5*/
+}
 
 .circle {
     /*border: solid black 2px;*/
@@ -37,6 +28,7 @@ h4:hover{
     width: 40px;
     line-height: 40px;
     text-align: center;
+    font-family:SharpGroteskTRIALBook22;
     font-size: 28px;
     color:white;
     z-index: 1;
@@ -68,34 +60,26 @@ h4:hover{
 
 
 
-
-
-.icon:hover{
-	opacity: 0.4;
-	}
-
-/*body {
-    padding: 0;
-    margin: 0;
-}*/
-
 .grid-square,.column,.row{   
   /*border: solid red 1px;*/ /* borders on the divs so we can see them  */
   box-sizing: border-box; /* look up box sizing */
   overflow: hidden; 
-  font-family: big caslon;
-  font-size: 16px;
-
-
+  font-family:ogg-roman;
+  font-size: 24px;
 }
   
+.icon:hover{
+    opacity: 0.4;
+    }
+
 .icon { 
-  max-width:58px;
-  height: 50px;
+  max-width:65px;
+  height: 60px;
 }
 
 #grid-container-one,
 #grid-container-two {
+
     position: absolute;
     background-color: ;
     height: 50%;
@@ -144,11 +128,9 @@ Grid 2 is composed of individual grid squares
     width: 20%;
 }
 
-
-
 .modalDialog {
     position: fixed;
-    font-family:big caslon;
+    font-family:ogg-roman;
     font-size: 20px;
     line-height:1.6;
     top: 0;
@@ -215,28 +197,3 @@ Grid 2 is composed of individual grid squares
     opacity:0.3;
     transition:none;
 }
-
-    /*.grid-square:nth-child(odd) {
-        background-color: ;
-    }*/
-/*text-rendering:optimizeLegibility;
-line-height:1.25;
-letter-spacing:0.04em
-max-width:540px;
-text-indent: 1.25em;
-margin-bottom: 1em;*/
-/*text-align: center;*/
-
-
-
-
-    /*.grid-square:nth-child(odd) {
-        background-color: ;
-    }*/
-/*text-rendering:optimizeLegibility;
-line-height:1.25;
-letter-spacing:0.04em
-max-width:540px;
-text-indent: 1.25em;
-margin-bottom: 1em;*/
-/*text-align: center;*/
