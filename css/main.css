@@ -9,14 +9,26 @@
     src: url("../asset/typeface/SharpGroteskTRIALBook22.otf") format("opentype");
 }
 
+@font-face {
+    font-family:SportingGrotesque-Regular;
+    src: url("../asset/typeface/SportingGrotesque-Regular.otf") format("opentype");
+}
+
 
 html{
 	background-color: black;
 }
 
+hr{
+  position:fixed;
+  top:10%;
+  left:5%;
+  color: white;
+}
+
 .booktitle{
-	position: absolute;
-  top: 5%;
+	position: fixed;
+  top: 6%;
   left: 45%;
   font-family:Ogg-Roman;
 	color: white;
@@ -24,25 +36,62 @@ html{
 	line-height: 1.35;
 	text-align: center;
 	letter-spacing:0.055em;
-	
 	text-rendering:optimizeLegibility;
 }
 
-
-.menu{
-	
+.poem{
+	position:fixed;
+  /*margin:25px;
+  padding:25px;*/
+  top:5.7%; left:6%;
 	font-family:SharpGroteskTRIALBook22;
-	font-size: 18px;
+	font-size: 23px;
 	line-height: 0.7;
 	letter-spacing:0.04em;
 	text-rendering:optimizeLegibility;
-  position:fixed;
-	margin:10px;
-	padding:10px;
 	color:white;
 	}
 
-/*homepage underline situation*/
+.about{
+  position:fixed;
+  /*margin:25px;
+  padding:25px;*/
+  top:3.5%; left:32%;
+  font-family:SharpGroteskTRIALBook22;
+  font-size: 23px;
+  line-height: 0.7;
+  letter-spacing:0.04em;
+  text-rendering:optimizeLegibility;
+  color:white;
+  }
+
+.arthur{
+  position:fixed;
+  /*margin:25px;
+  padding:25px;*/
+  top:3.5%; left:58%;
+  font-family:SharpGroteskTRIALBook22;
+  font-size: 23px;
+  line-height: 0.7;
+  letter-spacing:0.04em;
+  text-rendering:optimizeLegibility;
+  color:white;
+  }
+
+.colophon{
+  position:fixed;
+  /*margin:25px;
+  padding:25px;*/
+  top:3.5%; left:84.5%;
+  font-family:SharpGroteskTRIALBook22;
+  font-size: 23px;
+  line-height: 0.7;
+  letter-spacing:0.04em;
+  text-rendering:optimizeLegibility;
+  color:white;
+  }
+
+/*title inline situation*/
 
 .underline {
   display: inline;
@@ -56,7 +105,7 @@ html{
   right: 0;
   width: 0;
   bottom: 37px;
-  background: red;
+  background: rgb(255, 0, 0);
   height: 4px;
   transition-property: width;
   transition-duration: 0.6s;
@@ -69,6 +118,63 @@ html{
   right: auto;
   width: 100%;
 }
+
+/*menu inline situation*/
+
+
+.menuhover {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+.menuhover:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  width: 0;
+  bottom: 10px;
+  background: rgb(255, 0, 0);
+  height: 4px;
+  transition-property: width;
+  transition-duration: 0.6s;
+  transition-timing-function: ease-out;
+}
+.menuhover:hover:after,
+.menuhover:focus:after,
+.menuhover:active:after {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+
+/*Marquee poem*/
+.poem1 { 
+    position:fixed;
+   /* overflow: hidden;*/
+    top:0;
+    left:0;
+    display: block;
+    background-color: white;
+    color:black;
+    font-family: SharpGroteskTRIALBook22;
+    font-size: 66px;
+    margin:;
+    
+    white-space: nowrap;
+    animation: marquee 50s linear infinite;
+}
+
+.poem:hover {
+    animation-play-state: paused
+}
+
+/* Make it move */
+@keyframes marquee {
+    0%   { text-indent: 14em }
+    100% { text-indent: -105em }
+}
+
 
 
 
