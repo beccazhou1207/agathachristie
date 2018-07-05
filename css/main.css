@@ -15,14 +15,16 @@ html{
 }
 
 .booktitle{
-	font-family:Ogg-Roman;
+	position: absolute;
+  top: 5%;
+  left: 45%;
+  font-family:Ogg-Roman;
 	color: white;
 	font-size: 54px;
 	line-height: 1.35;
 	text-align: center;
 	letter-spacing:0.055em;
-	margin:-130px;
-	padding:10px;
+	
 	text-rendering:optimizeLegibility;
 }
 
@@ -34,6 +36,7 @@ html{
 	line-height: 0.7;
 	letter-spacing:0.04em;
 	text-rendering:optimizeLegibility;
+  position:fixed;
 	margin:10px;
 	padding:10px;
 	color:white;
