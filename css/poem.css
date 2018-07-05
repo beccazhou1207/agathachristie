@@ -1,0 +1,166 @@
+/* GLOBAL */
+@font-face {
+    font-family: Ogg-Roman;
+    src: url("../asset/typeface/Ogg-Roman.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SharpGroteskTRIALBook22;
+    src: url("../asset/typeface/SharpGroteskTRIALBook22.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SportingGrotesque-Regular;
+    src: url("../asset/typeface/SportingGrotesque-Regular.otf") format("opentype");
+}
+
+
+html{
+	background-color: black;
+}
+
+.title{
+  margin: 20px;
+  padding-bottom: 40px;
+  position: fixed;
+  top:0;
+  left:20%;
+  color:white;
+ 
+    font-family: Ogg-Roman;
+    font-size: 90px;
+}
+
+.menu{
+  position: fixed;
+  margin: 10px;
+  padding-top: 10px;
+  bottom:0;
+  left:44%;
+  right:0;
+  color:white;
+ 
+    font-family: SharpGroteskTRIALBook22;
+    font-size: 35px;
+}
+
+/*Marquee poem*/
+.poembox{
+
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+.poem1 { 
+    
+   /* overflow: hidden;*/
+    position:relative;
+    top:120px;
+    marquee-direction: backward;
+    display: block;
+    background-color: white;
+    color:black;
+    font-family: SharpGroteskTRIALBook22;
+    font-size: 55px;
+    margin:;
+    
+    white-space: nowrap;
+    animation: marquee 50s linear infinite;
+}
+
+.poem1:hover {
+    animation-play-state: paused
+}
+
+/* Make it move */
+@keyframes marquee {
+    0%   { text-indent: 0em }
+    100% { text-indent: -90em }
+}
+
+.poem2 { 
+   /* overflow: hidden;*/
+    position: relative;
+    top:120px;
+    display: block;
+    background-color:black;
+    color:white;
+    font-family: SharpGroteskTRIALBook22;
+    font-size: 55px;
+    margin:;
+    
+    white-space: nowrap;
+    animation: marquee 50s linear infinite;
+}
+
+.poem2:hover {
+    animation-play-state: paused
+}
+
+
+/* Make it move */
+@keyframes marquee {
+    0%   { text-indent: 14em }
+    100% { text-indent: -105em }
+}
+
+
+
+
+
+
+
+
+/*.police img{
+	
+  position: fixed;
+  right: 60%;
+  top: 70%;
+  width: 6.5em;
+  margin-top: -1em;
+}
+
+
+.police img:hover{
+	opacity:0.6;
+}
+
+.murder img{
+position: fixed;
+  right: 34.3%;
+  top: 70%;
+  width: 6.7em;
+  margin-top: -1em;
+
+}	
+
+.murder img:hover{
+	opacity:0.6;
+}*/
+
+/*h4:hover{
+opacity:0.6;
+}*/
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+/*text-rendering:optimizeLegibility;
+line-height:1.25;
+letter-spacing:0.04em
+max-width:540px;
+text-indent: 1.25em;
+margin-bottom: 1em;*/
+/*text-align: center;*/
