@@ -19,12 +19,6 @@ html{
 	background-color: black;
 }
 
-hr{
-  position:fixed;
-  top:10%;
-  left:5%;
-  color: white;
-}
 
 .booktitle{
 	position: fixed;
@@ -43,7 +37,7 @@ hr{
 	position:fixed;
   /*margin:25px;
   padding:25px;*/
-  top:5.7%; left:6%;
+  top:5%; left:6%;
 	font-family:SharpGroteskTRIALBook22;
 	font-size: 23px;
 	line-height: 0.7;
