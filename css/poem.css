@@ -16,48 +16,38 @@
 
 
 html{
-	background-color: black;
+	background-color:white;
 }
 
 .title{
-  margin: 20px;
+  margin: 35px;
   padding-bottom: 40px;
   position: fixed;
   top:0;
   left:33%;
-  color:white;
+  color:rgb(0,0,255);
   font-family: Ogg-Roman;
-  font-size: 54px;
+  font-size: 40px;
 }
 
-.menu h4{
-  font-family: SharpGroteskTRIALBook22;
-  font-size: 23px;
-  position: fixed;
-  margin: 20px;
-  padding-top: 10px;
-  bottom:0;
-  left:40%;
-  right:0;
-  color:white;
-}
+
 
 /*Marquee poem*/
 .poembox{
-  position: fixed;
-  top:0;
-  left:0;
-  right:0;
+  position:absolute;
+
+  top:0%;
+  left:0%;
 }
 
-.poem1 { 
+.poem{ 
    /* overflow: hidden;*/
     position:relative;
     top:120px;
     marquee-direction: backward;
     display: block;
     background-color: white;
-    color:black;
+    color:#0000FF;
     font-family: SharpGroteskTRIALBook22;
     font-size: 55px;
     margin:;
@@ -65,38 +55,26 @@ html{
     animation: marquee 50s linear infinite;
 }
 
-.poem1:hover {
-    animation-play-state: paused
+.poem:hover {
+    animation-play-state:paused;
 }
 
 /* Make it move */
 @keyframes marquee {
-    0%   { text-indent: 10em }
+    0%   { text-indent: 23em }
     100% { text-indent: -80em }
 }
 
-.poem2 { 
+.number { 
    /* overflow: hidden;*/
     position: relative;
     top:120px;
     display: block;
-    background-color:black;
+    background-color:#0000FF;
     color:white;
     font-family: SharpGroteskTRIALBook22;
     font-size: 55px;
     margin:;
-    white-space: nowrap;
-    animation: marquee 50s linear infinite;
-}
-
-.poem2:hover {
-    animation-play-state: paused
-}
-
-/* Make it move */
-@keyframes marquee {
-    0%   { text-indent: 10em }
-    100% { text-indent: -80em }
 }
 
 /*menu inline situation*/
@@ -114,7 +92,7 @@ html{
   width: 0;
   bottom: 11px;
   background: rgb(255, 0, 0);
-  height: 4px;
+  height: 3.5px;
   transition-property: width;
   transition-duration: 0.6s;
   transition-timing-function: ease-out;
