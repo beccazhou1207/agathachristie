@@ -5,39 +5,58 @@
 }
 
 @font-face {
+    font-family:Ogg-Italic;
+    src: url("../asset/typeface/Ogg-Italic.otf") format("opentype");
+}
+
+@font-face {
     font-family:SharpGroteskTRIALBook22;
     src: url("../asset/typeface/SharpGroteskTRIALBook22.otf") format("opentype");
 }
 
-@font-face {
-    font-family:SportingGrotesque-Regular;
-    src: url("../asset/typeface/SportingGrotesque-Regular.otf") format("opentype");
-}
-
-
 html{
-	background-color: black;
+	  background-color: black;
+
 }
 
+section {
+  
+}
 
-.booktitle{
+#booktitle{
 	position: fixed;
-  top: 6%;
-  left: 45%;
+  top: 33%;
+  left: 28%;
+}
+
+#booktitle h2 {
   font-family:Ogg-Roman;
 	color: white;
-	font-size: 54px;
-	line-height: 1.35;
+	font-size: 78px;
+	line-height: 1.2;
 	text-align: center;
 	letter-spacing:0.055em;
 	text-rendering:optimizeLegibility;
-}
+  }
 
-.poem{
+#booktitle h3 {
+  font-family:SharpGroteskTRIALBook22;
+  color: white;
+  font-size: 22px;
+  line-height:1.8;
+  text-align: center;
+  letter-spacing:0.055em;
+  text-rendering:optimizeLegibility;
+  }
+
+#poem{
 	position:fixed;
   /*margin:25px;
   padding:25px;*/
-  top:5%; left:6%;
+  top:3.5%; left:6%;
+  }
+
+#poem h4{
 	font-family:SharpGroteskTRIALBook22;
 	font-size: 23px;
 	line-height: 0.7;
@@ -46,11 +65,14 @@ html{
 	color:white;
 	}
 
-.about{
+#about{
   position:fixed;
   /*margin:25px;
   padding:25px;*/
   top:3.5%; left:32%;
+  }
+
+  #about h4{
   font-family:SharpGroteskTRIALBook22;
   font-size: 23px;
   line-height: 0.7;
@@ -59,11 +81,14 @@ html{
   color:white;
   }
 
-.arthur{
+#arthur{
   position:fixed;
   /*margin:25px;
   padding:25px;*/
   top:3.5%; left:58%;
+  }
+
+  #arthur h4{
   font-family:SharpGroteskTRIALBook22;
   font-size: 23px;
   line-height: 0.7;
@@ -72,11 +97,14 @@ html{
   color:white;
   }
 
-.colophon{
+#colophon{
   position:fixed;
   /*margin:25px;
   padding:25px;*/
   top:3.5%; left:84.5%;
+  }
+
+#colophon h4{
   font-family:SharpGroteskTRIALBook22;
   font-size: 23px;
   line-height: 0.7;
@@ -84,6 +112,28 @@ html{
   text-rendering:optimizeLegibility;
   color:white;
   }
+
+
+/*Button*/
+.linktoplot p{
+  position: fixed;
+  bottom:5%;  
+  left:50%;
+  font-size: 72px;
+  color:white;
+}
+
+.linktoplot p:hover{
+    color:red;
+}
+
+
+
+
+/*Plot*/
+
+
+
 
 /*title inline situation*/
 
@@ -98,7 +148,7 @@ html{
   z-index: 1;
   right: 0;
   width: 0;
-  bottom: 37px;
+  bottom: 50px;
   background: rgb(255, 0, 0);
   height: 4px;
   transition-property: width;
@@ -114,8 +164,6 @@ html{
 }
 
 /*menu inline situation*/
-
-
 .menuhover {
   display: inline;
   position: relative;
