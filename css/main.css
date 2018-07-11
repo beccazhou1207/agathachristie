@@ -1,7 +1,7 @@
 /* GLOBAL */
 @font-face {
     font-family:FavoritTrial-Regular;
-    src: url("../asset/typeface/FavoritTrial-Regular.otf") format("opentype");
+    src: url("./asset/typeface/FavoritTrial-Regular.otf") format("opentype");
 }
 
 @font-face {
@@ -12,12 +12,12 @@
 
 @font-face {
     font-family:Traulha_TEST-Regulara;
-    src: url("../asset/typeface/Traulha_TEST-Regulara.otf") format("opentype");
+    src: url("./asset/typeface/Traulha_TEST-Regulara.otf") format("opentype");
 }
 
 @font-face {
     font-family:Traulha_TEST-Jornau;
-    src: url("../asset/typeface/Traulha_TEST-Jornau.otf") format("opentype");
+    src: url("./asset/typeface/Traulha_TEST-Jornau.otf") format("opentype");
 }
 
 html{
