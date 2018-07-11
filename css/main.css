@@ -1,278 +1,149 @@
 /* GLOBAL */
 @font-face {
-    font-family: Ogg-Roman;
-    src: url("../asset/typeface/Ogg-Roman.otf") format("opentype");
+    font-family:FavoritTrial-Regular;
+    src: url("../asset/typeface/FavoritTrial-Regular.otf") format("opentype");
 }
 
 @font-face {
-    font-family:Ogg-Italic;
-    src: url("../asset/typeface/Ogg-Italic.otf") format("opentype");
+    font-family:FavoritTrial-RegularIta;
+    src: url("../asset/typeface/FavoritTrial-RegularIta.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family:Traulha_TEST-Regulara;
+    src: url("../asset/typeface/Traulha_TEST-Regulara.otf") format("opentype");
 }
 
 @font-face {
-    font-family:SharpGroteskTRIALBook22;
-    src: url("../asset/typeface/SharpGroteskTRIALBook22.otf") format("opentype");
+    font-family:Traulha_TEST-Jornau;
+    src: url("../asset/typeface/Traulha_TEST-Jornau.otf") format("opentype");
 }
 
 html{
-	  background-color: white;
-
+    background-color: white;
+    cursor:crosshair;
+    /*cursor: url("../asset/images/cursor.png"),auto;*/
 }
-
-section {
-  
+nav {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 10%;
 }
-
-#booktitle{
-	position: fixed;
-  top: 33%;
-  left: 27%;
-}
-
-#booktitle h2 {
-  font-family:Ogg-Roman;
-	color: rgb(0,0,255);
-	font-size: 78px;
-	line-height: 1.2;
-	text-align: center;
-	letter-spacing:0.055em;
-	text-rendering:optimizeLegibility;
-  }
-
-#booktitle h3 {
-  font-family:Ogg-Roman;
-  color: rgb(0,0,255);
-  font-size: 23px;
-  line-height:4;
-  text-align: center;
-  letter-spacing:0.055em;
-  text-rendering:optimizeLegibility;
-  }
-
-#poem{
-	position:fixed;
-  /*margin:25px;
-  padding:25px;*/
-  top:5%; left:6%;
-  }
-
-#poem h4{
-	font-family:SharpGroteskTRIALBook22;
-	font-size: 23px;
-	line-height: 0.7;
-	letter-spacing:0.04em;
-	text-rendering:optimizeLegibility;
-	color:rgb(0,0,255);
-	}
-
-#about{
-  position:fixed;
-  /*margin:25px;
-  padding:25px;*/
-  top:5%; left:32%;
-  }
-
-  #about h4{
-  font-family:SharpGroteskTRIALBook22;
-  font-size: 23px;
-  line-height: 0.7;
-  letter-spacing:0.04em;
-  text-rendering:optimizeLegibility;
-  color:rgb(0,0,255);
-  }
-
-#arthur{
-  position:fixed;
-  /*margin:25px;
-  padding:25px;*/
-  top:5%; left:58%;
-  }
-
-  #arthur h4{
-  font-family:SharpGroteskTRIALBook22;
-  font-size: 23px;
-  line-height: 0.7;
-  letter-spacing:0.04em;
-  text-rendering:optimizeLegibility;
-  color:rgb(0,0,255);
-  }
-
-#colophon{
-  position:fixed;
-  /*margin:25px;
-  padding:25px;*/
-  top:5%; left:84.5%;
-  }
-
-#colophon h4{
-  font-family:SharpGroteskTRIALBook22;
-  font-size: 23px;
-  line-height: 0.7;
-  letter-spacing:0.04em;
-  text-rendering:optimizeLegibility;
-  color:rgb(0,0,255);
-  }
-
-
-/*Button*/
-.linktoplot p{
-  position: fixed;
-  bottom:5%;  
-  left:48%;
-  font-size: 72px;
-  color:rgb(0,0,255);
-}
-
-.linktoplot p:hover{
-    color:red;
-}
-
-
-
-
-/*Plot*/
-
-
-
 
 /*title inline situation*/
-
 .underline {
-  display: inline;
-  position: relative;
-  overflow: hidden;
+    display: inline;
+    position: relative;
+    overflow: hidden;
 }
 .underline:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  right: 0;
-  width: 0;
-  bottom: 50px;
-  background: rgb(255, 0, 0);
-  height: 4px;
-  transition-property: width;
-  transition-duration: 0.6s;
-  transition-timing-function: ease-out;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    width: 0;
+    bottom: 75px;
+    background: rgb(255, 0, 0);
+    height: 7px;
+    transition-property: width;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-out;    
 }
 .underline:hover:after,
 .underline:focus:after,
 .underline:active:after {
-  left: 0;
-  right: auto;
-  width: 100%;
+    left: 0;
+    right: auto;
+    width: 100%;
 }
 
-/*menu inline situation*/
-.menuhover {
-  display: inline;
-  position: relative;
-  overflow: hidden;
-}
-.menuhover:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  right: 0;
-  width: 0;
-  bottom: 10px;
-  background: rgb(255, 0, 0);
-  height: 3px;
-  transition-property: width;
-  transition-duration: 0.6s;
-  transition-timing-function: ease-out;
-}
-.menuhover:hover:after,
-.menuhover:focus:after,
-.menuhover:active:after {
-  left: 0;
-  right: auto;
-  width: 100%;
+a {
+    font-family: FavoritTrial-Regular;
+    font-size: 32px;
+    letter-spacing:0.04em;
+    text-rendering:optimizeLegibility;
+    padding:0 100px 0 100px;
+       /* top right bottom left*/
+    text-decoration: none;
+    color:rgb(0,0,255);
 }
 
-/*Marquee poem*/
-.poem1 { 
-    position:fixed;
-   /* overflow: hidden;*/
-    top:0;
-    left:0;
-    display: block;
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.light {
+    height: 100%;
+    padding-top: 20px;
     background-color: white;
-    color:black;
-    font-family: SharpGroteskTRIALBook22;
-    font-size: 66px;
-    margin:;
-    
-    white-space: nowrap;
-    animation: marquee 50s linear infinite;
 }
 
-.poem:hover {
-    animation-play-state: paused
-}
-
-/* Make it move */
-@keyframes marquee {
-    0%   { text-indent: 14em }
-    100% { text-indent: -105em }
+.dark{
+    height: 100%;
+    padding-top: 20px;
+    background-color: rgb(0,0,255);
 }
 
 
+.light h2 {
+    font-family:Traulha_TEST-Regulara;
+    color: rgb(0,0,255);
+    font-size: 124px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing:0em;
+    text-rendering:optimizeLegibility;
+  }
 
-
-
-
-
-
-/*.police img{
-	
-  position: fixed;
-  right: 60%;
-  top: 70%;
-  width: 6.5em;
-  margin-top: -1em;
+#plot h2{
+    font-family:FavoritTrial-Regular;
+    color:rgb(0,0,255);
+    font-size: 72px;
+    line-height: 1.05;
+    text-align: left;
+    letter-spacing:0em;
+    padding: 130px;
+    text-rendering:optimizeLegibility;
+}
+#participants .column {
+    float: left;
+    width: 48%;
 }
 
-
-.police img:hover{
-	opacity:0.6;
+/* Clear floats after the columns */
+#participants .row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.murder img{
-position: fixed;
-  right: 34.3%;
-  top: 70%;
-  width: 6.7em;
-  margin-top: -1em;
+#participants h3{
+    font-family:FavoritTrial-Regular;
+    color:rgb(0,0,255);
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: left;
+    letter-spacing:0em;
+    margin: 50px;
+    padding: 5px;
+    text-rendering:optimizeLegibility;
+}
 
-}	
-
-.murder img:hover{
-	opacity:0.6;
-}*/
-
-/*h4:hover{
-opacity:0.6;
-}*/
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-/*text-rendering:optimizeLegibility;
-line-height:1.25;
-letter-spacing:0.04em
-max-width:540px;
-text-indent: 1.25em;
-margin-bottom: 1em;*/
-/*text-align: center;*/
+#quote h2{
+    font-family:FavoritTrial-Regular;
+    color:white;
+    font-size: 72px;
+    line-height: 1.05;
+    text-align: left;
+    letter-spacing:0em;
+    padding: 130px;
+    text-rendering:optimizeLegibility;
+}
