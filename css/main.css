@@ -19,6 +19,7 @@
     font-family:Traulha_TEST-Jornau;
     src: url("../asset/typeface/Traulha_TEST-Jornau.otf") format("opentype");
 }
+
 html{
     background-color: white;
     cursor:crosshair;
