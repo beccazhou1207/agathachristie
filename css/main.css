@@ -32,6 +32,10 @@ nav {
     bottom: 10%;
 }
 
+.nav:hover{
+    opacity: 0.4;
+    }
+
 /*title inline situation*/
 .underline {
     display: inline;
@@ -58,6 +62,15 @@ nav {
     right: auto;
     width: 100%;
 }
+#title h3{
+    font-family:FavoritTrial-Regular;
+    color: rgb(0,0,255);
+    font-size: 45px;
+    line-height: 1.1;
+    text-align: center;
+    word-spacing:2em;
+    text-rendering:optimizeLegibility;
+ }
 
 a {
     font-family: FavoritTrial-Regular;
@@ -80,18 +93,36 @@ body {
     height: 100%;
 }
 
+.autoheight{
+    padding-top: 20px;
+    padding-left: 60px;
+    background-color: white;
+}
+
 .light {
     height: 100%;
     padding-top: 20px;
+    padding-left: 60px;
     background-color: white;
 }
 
 .dark{
     height: 100%;
     padding-top: 20px;
+    padding-left: 60px;
     background-color: rgb(0,0,255);
 }
 
+/*title homepage*/
+#title h2 {
+    font-family:Traulha_TEST-Regulara;
+    color: rgb(0,0,255);
+    font-size: 124px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing:0em;
+    text-rendering:optimizeLegibility;
+  }
 
 .light h2 {
     font-family:Traulha_TEST-Regulara;
@@ -103,19 +134,42 @@ body {
     text-rendering:optimizeLegibility;
   }
 
+#quote h2{
+    font-family:FavoritTrial-Regular;
+    color:white;
+    font-size: 62px;
+    line-height: 1.15;
+    text-align: left;
+    letter-spacing:0em;
+    padding: 120px;
+    text-rendering:optimizeLegibility;
+}
+
 #plot h2{
     font-family:FavoritTrial-Regular;
     color:rgb(0,0,255);
-    font-size: 72px;
-    line-height: 1.05;
+    font-size: 62px;
+    line-height: 1.15;
     text-align: left;
     letter-spacing:0em;
-    padding: 130px;
+    padding: 120px;
     text-rendering:optimizeLegibility;
 }
+
+#participants h3{
+    font-family:FavoritTrial-Regular;
+    color:rgb(0,0,255);
+    font-size: 62px;
+    line-height: 1.1;
+    text-align: left;
+    letter-spacing:0em;
+    padding: 120px;
+    text-rendering:optimizeLegibility;
+}
+
 #participants .column {
     float: left;
-    width: 48%;
+    width: 50%;
 }
 
 /* Clear floats after the columns */
@@ -125,25 +179,17 @@ body {
     clear: both;
 }
 
-#participants h3{
+#Colophon h2{
     font-family:FavoritTrial-Regular;
     color:rgb(0,0,255);
-    font-size: 36px;
+    font-size: 62px;
     line-height: 1.1;
     text-align: left;
     letter-spacing:0em;
-    margin: 50px;
-    padding: 5px;
+    padding: 120px;
     text-rendering:optimizeLegibility;
 }
 
-#quote h2{
-    font-family:FavoritTrial-Regular;
-    color:white;
-    font-size: 72px;
-    line-height: 1.05;
-    text-align: left;
-    letter-spacing:0em;
-    padding: 130px;
-    text-rendering:optimizeLegibility;
+.credit:hover{
+    opacity: 0.4;
 }
