@@ -7,28 +7,41 @@
         <link href='./css/main.css' media='all' rel='stylesheet' type='text/css' />
         <script src='./js/jquery-2.1.1.min.js' type='text/javascript'></script>
         <script src='./js/main.js' type='text/javascript'></script>
+     	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+    	<script src="./js/press.js"></script>
 </head>
 <body>
-
+	
 <nav>
     <a class="nav" href="police1.html">↳Investigation</a>
-    <a class="nav" href="">↳The Last Chapter</a>
+    <a class="nav" href="lawrence.html">↳The Last Chapter</a>
     <a class="nav" href="murder1.html">↳Confession</a>
 </nav>
-
 	<!-- Title -->
-	<div class="light" id="1">
+	<div id="canvas"></div>
+	<div class="light" id="title">
 	    <br><br><br><br><br><br>
-	    <h2>And Then There <br>Were <span class="underline">None</span>
+	    <span class="underline"><h2>And Then There <br>Were <span class="underline">None</span></h2>
+	    <br><br><br>
+	    <h3><span class="credit" onclick="window.open('police1.html')">↳Investigation</span><span class="credit" onclick="window.open('lawrence.html')">         ↳The/Last/Chapter</span>         <span class="credit" onclick="window.open('murder1.html')">↳Confession</span></h3>
+	</div>
+	
+	
+
+	<!-- Quote -->
+	<div class="dark" id="quote">
+	    <h2>
+			Crime is terribly <span style="font-family:Traulha_TEST-Jornau;">revealing</span>. Try and vary your methods as you will, your tastes, your habits, your attitude of mind, and your soul is revealed by your actions.<br><span style="font-size:36px">Agatha Christie</span>
 	    </h2>
 	</div>
 
 	<!-- Plot -->
-	<div class="light" id="plot">
+	<div class="autoheight" id="plot">
 	    <h2>
-	    	Ten strangers are lured to an island mansion off the coast. They are murdered one by one. The killer is among them and he is ready to strike again and again...
-	    	<br><br>This website creates an interactive narrative based on the last chapter of <span style="font-family:Traulha_TEST-Jornau;">And Then There Were None</span> by English writer Agatha Christie.
-	    	<br><br>The web experience visualizes the crime scene as well as the postscript from the killer. 
+	    	<p>Ten strangers are lured to an island mansion off the coast. They are murdered one by one. The killer is among them and is ready to strike...</p>
+	    	<br><p>In attempt to create an interactive narrative based on the last chapter of <span style="font-family:Traulha_TEST-Jornau;">And Then There Were None</span> by English writer Agatha Christie, this web experience visualizes the crime scene as well as the postscript from the murderer.</p>
 	    </h2>
 	</div>
 
@@ -38,11 +51,11 @@
 	</div>
 
 	 <!-- Participants -->
-	<div class="light" id="participants">
+	<div class="autoheight" id="participants">
 		<div class="row">
 	    	<div class="column">
     			<h3>
-    				<p>DR. ARMSTRONG is paid to check Mrs. Owen's health.</p><br>
+    				<p>DR. ARMSTRONG is paid to check the health condition of Mrs. and Mr. Owen.</p><br>
     				<p>ANTHONY MARSTON is lured to the island by the prospect of having a good time and looking for a party and pretty girls.</p><br>
     				<p>EMILY BRENT is invited to the island for a free vacation.</p><br>
     				<p>MRS. ROGERS is hired through an agency as a cook and maid.</p><br>
@@ -54,8 +67,8 @@
     				<p>JUSTICE LAWRENCE received a letter from an old friend.</p><br>
     				<p>PHILIP LOMBARD is hired to be at the disposal of Mr. Owen.</p><br>
     				<p>MR. ROGERS is hired through an agency as a butler.</p><br>
-    				<p>VERA CLAYTHORNE is hired to be Mrs. Owen's secretary for the summer.</p><br>
-    				<p>WILLIAM BLORE is hired to keep an eye on the guests and Mrs. Owen's jewels.</p>
+    				<p>VERA CLAYTHORNE is hired to be the secretary for this summer to Mrs. Owen.</p><br>
+    				<p>WILLIAM BLORE is hired to keep an eye on the guests and the jewels of Mrs. Owen.</p>
     			</h3>
     		</div>	
   		</div>
@@ -72,16 +85,15 @@
 	</div>
 
 	<!-- Colophon -->
-	<div class="light" id="7">
-	Colophon
+	<div class="autoheight" id="Colophon">
+		<h2>
+			<p><span style="font-family:Traulha_TEST-Jornau;">And Then There Were None</span> is completed at Core Interaction class in Parsons School of Design. This is an individual web project, first published in Fall 2016, then revised in Summer 2018.</p><br>
+			<p>Special Thanks to my teachers <span class="credit" onclick="window.open('http://www.tiffhockin.info')">Tiffany Hockin</span>, <span class="credit" onclick="window.open('http://www.chrisallick.com')">Chris Allick</span></p><br>
+			<p>Site design by <span class="credit" onclick="window.open('http://www.rebeccajiayizhou.com')">Rebecca Zhou</span>. Typefaces by <span class="credit" onclick="window.open('http://www.abcdinamo.com/front')">ABCDinamo</span> and <span class="credit" onclick="window.open('https://extrabrut.shop/')">Extrabrut.shop</span></p><br>
+			<p>For press and other inquiries, please contact Rebecca, the owner of the website, also an alumni from Parsons School of Design.</p>
+		</h2>
 	</div>
 
-	 <!-- Quote -->
-	<div class="dark" id="quote">
-	    <h2>
-			Crime is terribly <span style="font-family:Traulha_TEST-Jornau;">revealing</span>. Try and vary your methods as you will, your tastes, your habits, your attitude of mind, and your soul is revealed by your actions.<br><span style="font-size:36px">Agatha Christie</span>
-	    </h2>
-	</div>
 
 </body>
 </html>
